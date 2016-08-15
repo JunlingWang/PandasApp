@@ -13,12 +13,20 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:src = "@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/logo"
+            android:layout_gravity="center_horizontal"  />
 
         <ImageButton
             android:src = "@drawable/order"
-            android:layout_width="377dp"
-            android:layout_height="236dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
             android:id="@+id/order"
             android:layout_gravity="center_horizontal" />
 
@@ -29,4 +37,5 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.18" />
     </LinearLayout>
+
 </RelativeLayout>
