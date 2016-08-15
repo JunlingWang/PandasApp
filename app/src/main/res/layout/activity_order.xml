@@ -9,12 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.junlingwang.pandasapp.OrderActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PandasOrder"
-        android:id="@+id/textView"
-        android:layout_alignParentStart="true"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true">
+    <ImageButton
+        android:scaleType="fitXY"
+        android:src = "@drawable/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:layout_gravity="center_horizontal"  />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/orderWebView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
 </RelativeLayout>

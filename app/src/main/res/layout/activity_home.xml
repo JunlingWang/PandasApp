@@ -16,7 +16,8 @@
         android:weightSum="1"
         android:id="@+id/linearLayout">
 
-        <ImageView
+        <ImageButton
+            android:scaleType="fitXY"
             android:src = "@drawable/logo"
             android:layout_width="fill_parent"
             android:layout_height="100dp"
