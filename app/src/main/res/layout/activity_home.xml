@@ -24,13 +24,13 @@
             android:layout_gravity="center_horizontal"  />
 
         <ImageButton
+            android:onClick="go_to_order"
             android:src = "@drawable/order"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:id="@+id/order"
             android:layout_gravity="center_horizontal" />
 
-        
         <ImageButton
             android:src = "@drawable/pick_up"
             android:layout_width="wrap_content"
