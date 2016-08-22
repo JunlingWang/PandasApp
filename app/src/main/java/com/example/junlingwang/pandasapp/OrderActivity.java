@@ -12,6 +12,6 @@ public class OrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_order);
 
         WebView webView = (WebView) findViewById(R.id.orderWebView);
-        webView.loadUrl("http://www.pandatownsville.com/menu/");
+        webView.loadUrl("http://www.pandatownsville.com/shop/");
     }
 }
