@@ -7,33 +7,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.junlingwang.pandasapp.OrderActivity">
-
+    tools:context="com.example.junlingwang.pandasapp.CartActivity">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true">
-    <ImageButton
-        android:scaleType="fitXY"
-        android:src = "@drawable/logo"
-        android:layout_width="fill_parent"
-        android:layout_height="100dp"
-        android:id="@+id/logo"
-        android:layout_gravity="center_horizontal"  />
+        <ImageButton
+            android:scaleType="fitXY"
+            android:src = "@drawable/logo"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/logo"
+            android:layout_gravity="center_horizontal"  />
 
         <WebView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/orderWebView"
+            android:id="@+id/cartWebView"
             android:layout_gravity="center_horizontal" />
-
-        <Button
-            android:onClick="go_to_cart"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:text="Go to cart"
-            android:id="@+id/button" />
     </LinearLayout>
 </RelativeLayout>
