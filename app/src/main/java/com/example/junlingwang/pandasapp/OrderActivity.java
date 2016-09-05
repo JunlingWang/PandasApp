@@ -14,7 +14,7 @@ public class OrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_order);
 
         WebView webView = (WebView) findViewById(R.id.orderWebView);
-        webView.loadUrl("http://www.pandatownsville.com/shop/");
+        webView.loadUrl("http://www.pandatownsville.com/mobile_menu/");
     }
     public void go_to_cart (View view) {
         Intent go_to = new Intent(this, CartActivity.class);
