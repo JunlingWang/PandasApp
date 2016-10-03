@@ -17,5 +17,12 @@ public class HomeActivity extends AppCompatActivity {
         Intent go_to = new Intent(this, OrderActivity.class);
         startActivity(go_to);
     }
+
+    public void go_to_pick_up (View view) {
+        Intent go_to = new Intent(this, PickupActivity.class);
+        startActivity(go_to);
+    }
+
+
 }
 
