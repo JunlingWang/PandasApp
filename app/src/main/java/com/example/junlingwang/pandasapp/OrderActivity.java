@@ -16,6 +16,7 @@ public class OrderActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.orderWebView);
         webView.loadUrl("http://www.pandatownsville.com/mobile_menu/");
     }
+
     public void go_to_cart (View view) {
         Intent go_to = new Intent(this, PaypalActivity.class);
         startActivity(go_to);

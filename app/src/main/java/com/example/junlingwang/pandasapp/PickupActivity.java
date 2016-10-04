@@ -13,7 +13,7 @@ public class PickupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pickup);
 
-        WebView webView = (WebView) findViewById(R.id.orderWebView);
+        WebView webView = (WebView) findViewById(R.id.pickupWebView);
         webView.loadUrl("http://www.pandatownsville.com/pick-up/");
     }
 
